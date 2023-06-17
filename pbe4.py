@@ -1,6 +1,3 @@
-from audioop import add
-
-
 def adder():
     num1 = int(input("Enter a number \n"))
     num2 = int(input("Enter a number to add \n"))

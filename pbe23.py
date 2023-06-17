@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 def rhyme():
     nRhime = input("Tell me a nursery rhyme \n")
     lenNRhyme = len(nRhime)

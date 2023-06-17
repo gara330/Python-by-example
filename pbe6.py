@@ -1,6 +1,3 @@
-from tkinter.simpledialog import askfloat
-
-
 def askForslices():
     initialSlices = int(input("How many slices do you start with? \n"))
     eatenSlices = int(input("How many slives have you eaten? \n"))

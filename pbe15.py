@@ -1,6 +1,3 @@
-from tkinter.colorchooser import askcolor
-
-
 def askColor():
     color = str.capitalize(input("What's your favorite color? \n"))
     if color == "Red":
