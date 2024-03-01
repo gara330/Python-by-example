@@ -3,7 +3,7 @@ def inviter():
     while True:
         name = str.capitalize(input("Who do you want to invite to the party? "))
         total_guest = total_guest + 1
-        print(name, "has been invited, total of guest = ",total_guest )
+        print(name, "has been invited, total of guest = ", total_guest)
         answer = str.lower(input("Do you want to invite some else? y/n "))
         if answer == "y" or answer == "yes":
             pass
@@ -12,5 +12,6 @@ def inviter():
             pass
         pass
     pass
+
 
 inviter()

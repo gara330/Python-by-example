@@ -1,13 +1,15 @@
 def count_up(number):
-    for i in range(1, number+1):
+    for i in range(1, number + 1):
         print(i)
     pass
 
+
 def count_down(number):
-    for i in range(20, number-1, -1):
+    for i in range(20, number - 1, -1):
         print(i)
         pass
     pass
+
 
 def menu():
     opt = str.lower(input("Do you want to count up or down? "))

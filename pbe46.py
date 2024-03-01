@@ -7,4 +7,5 @@ def counter():
     print("The last number you entered was: ", last_number)
     pass
 
+
 counter()

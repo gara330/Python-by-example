@@ -1,7 +1,8 @@
-def askName():
+def ask_name():
     name = input("Enter your first name: \n")
-    lenName = len(name)
-    print(name, "the lenght of your name is: ",lenName)
+    len_name = len(name)
+    print(name, "the lenght of your name is: ", len_name)
     pass
 
-askName()
+
+ask_name()

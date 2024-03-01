@@ -3,7 +3,8 @@ def division():
     div = int(input("Enter a second number for the division: "))
     answer = number // div
     res = number % div
-    print(number,"divided by ", div, "is", answer, "with", res, "remaining")
+    print(number, "divided by ", div, "is", answer, "with", res, "remaining")
     pass
+
 
 division()

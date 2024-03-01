@@ -1,4 +1,4 @@
-def askColor():
+def ask_color():
     color = str.capitalize(input("What's your favorite color? \n"))
     if color == "Red":
         print("I like Red too!")
@@ -8,4 +8,5 @@ def askColor():
         pass
     pass
 
-askColor()
+
+ask_color()

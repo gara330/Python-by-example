@@ -1,7 +1,8 @@
 def adder(number, total):
-    total = total + number 
+    total = total + number
     return total
     pass
+
 
 def ask_for_number():
     total = 0
@@ -12,5 +13,6 @@ def ask_for_number():
         pass
     print("The final total is: ", total)
     pass
+
 
 ask_for_number()

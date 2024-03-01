@@ -1,3 +1,3 @@
 import math
 
-print (round(math.pi, 4))
+print(round(math.pi, 4))

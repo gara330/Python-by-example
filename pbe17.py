@@ -1,4 +1,4 @@
-def askAge():
+def ask_age():
     age = int(input("How old are you? \n"))
     if age >= 18:
         print("You can vote \n")
@@ -14,4 +14,5 @@ def askAge():
         pass
     pass
 
-askAge()
+
+ask_age()

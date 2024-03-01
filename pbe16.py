@@ -1,4 +1,4 @@
-def askForRain():
+def ask_for_rain():
     rain = str.lower(input("It's raining outside? \n"))
     if rain == "yes":
         windy = str.lower(input("It's too windy? \n"))
@@ -14,4 +14,5 @@ def askForRain():
         pass
     pass
 
-askForRain()
+
+ask_for_rain()

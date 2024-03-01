@@ -4,4 +4,5 @@ def printer():
     for i in range(number):
         print(name)
 
+
 printer()

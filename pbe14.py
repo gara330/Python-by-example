@@ -1,4 +1,4 @@
-def askNumber():
+def ask_number():
     number = int(input("Enter a number between 10 and 20: \n"))
     if number >= 10 and number <= 20:
         print("Thank you!")
@@ -8,4 +8,5 @@ def askNumber():
         pass
     pass
 
-askNumber()
+
+ask_number()

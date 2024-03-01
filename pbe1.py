@@ -1,14 +1,17 @@
-def askFirsName():
+def ask_firts_name():
     name = input("What's you name? \n")
     return name
 
-def sayHello(name):
+
+def say_hello(name):
     print("Hello", name)
     pass
 
+
 def main():
-    name = askFirsName()
-    sayHello(name)
+    name = ask_firts_name()
+    say_hello(name)
     pass
+
 
 main()

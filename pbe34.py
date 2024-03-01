@@ -4,6 +4,7 @@ def square():
     print("The area is: ", area)
     pass
 
+
 def triangle():
     base = int(input("Enter the base: "))
     height = int(input("Enter the height: "))
@@ -11,16 +12,20 @@ def triangle():
     print("The area is", area)
     pass
 
+
 def menu():
-    opt = int(input("1) Square \n2) Triangle \n \nEnter a number to select an option: "))
+    opt = int(
+        input("1) Square \n2) Triangle \n \nEnter a number to select an option: ")
+    )
     if opt == 1:
         square()
         pass
     elif opt == 2:
-        triangle ()
+        triangle()
         pass
     else:
         print("Not a valid option!")
     pass
+
 
 menu()

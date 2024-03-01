@@ -3,4 +3,5 @@ def upper():
     print(word)
     pass
 
+
 upper()

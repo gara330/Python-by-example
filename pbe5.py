@@ -5,14 +5,17 @@ def adder():
     print("The add is:", addResult)
     return addResult
 
-def multiplyer():
+
+def multiplaier():
     add = adder()
     num3 = int(input("Enter a number to multiply the add \n"))
     result = add * num3
     print("The last result is:", result)
     pass
 
+
 def main():
-    multiplyer()
+    multiplaier()
+
 
 main()

@@ -1,8 +1,9 @@
-def killogramConverter():
-    poundsInKillogram = 2.204
+def killogram_converter():
+    pounds_in_killogram = 2.204
     killograms = int(input("How many killograms do you want to convert \n"))
-    poundsConverted = killograms*poundsInKillogram
-    print("The conversion is:", poundsConverted)
+    pounds_converted = killograms * pounds_in_killogram
+    print("The conversion is:", pounds_converted)
     pass
 
-killogramConverter()
+
+killogram_converter()

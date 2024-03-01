@@ -3,6 +3,7 @@ def adder(number, total):
     return total
     pass
 
+
 def ask_for_number():
     total = 0
     number = int(input("Enter a number: "))
@@ -21,5 +22,6 @@ def ask_for_number():
         pass
     print(total)
     pass
+
 
 ask_for_number()

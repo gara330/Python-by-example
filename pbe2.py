@@ -1,18 +1,22 @@
-def askFirstName():
+def ask_first_name():
     fName = input("What's your first name? \n")
     return fName
 
-def askLasName():
+
+def ask_last_name():
     Lname = input("What's you last name? \n")
     return Lname
 
-def sayHello(fName , lName):
-    print("Hello" , fName , lName)
+
+def say_hello(fName, lName):
+    print("Hello", fName, lName)
     pass
 
+
 def main():
-    fName = askFirstName()
-    lName = askLasName()
-    sayHello(fName , lName)
+    fName = ask_first_name()
+    lName = ask_last_name()
+    say_hello(fName, lName)
+
 
 main()

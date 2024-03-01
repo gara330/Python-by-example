@@ -1,9 +1,11 @@
 import random
 
+
 def heads_or_tails():
     coin = ["heads", "tails"]
     machine = random.choice(coin)
     return machine
+
 
 def game():
     machine = heads_or_tails()
@@ -17,7 +19,7 @@ def game():
     else:
         print("Not a valid answer")
         exit
-    
+
     if user == machine:
         print("You win!")
         pass
@@ -25,5 +27,6 @@ def game():
         print("Bad luck")
         pass
     print("The machine got: ", machine)
+
 
 game()

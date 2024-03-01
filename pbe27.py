@@ -3,4 +3,5 @@ def multiplier():
     print(number * 2)
     pass
 
+
 multiplier()

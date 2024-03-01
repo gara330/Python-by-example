@@ -1,4 +1,4 @@
-def especNumbers():
+def espec_numbers():
     number = int(input("Enter 1, 2 or 3 \n"))
     if number == 1:
         print("Thank you")
@@ -14,4 +14,5 @@ def especNumbers():
         pass
     pass
 
-especNumbers()
+
+espec_numbers()
