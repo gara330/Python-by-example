@@ -3,14 +3,14 @@ import turtle
 
 scr = turtle.Screen()
 
-turtle.right(90)
-turtle.forward(100)
-turtle.setheading(0)
-turtle.left(90)
-turtle.forward(100)
+
+def star():
+    for i in range(0, 5):
+        turtle.forward(100)
+        turtle.right(144)
+        pass
+    turtle.exitonclick()
+    pass
 
 
-turtle.exitonclick()
-
-# This was an example is not the real excersice its just a test
-# Messig aroung wit git
+star()
