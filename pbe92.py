@@ -1,14 +1,15 @@
 import random
 
+
 def add_arrays():
     nums = []
     user_nums = []
-    for x in range(0,5):
-        rand_num = random.randint(0,10)
+    for x in range(0, 5):
+        rand_num = random.randint(0, 10)
         nums.append(rand_num)
         pass
-        
-    for i in range(0,3):
+
+    for i in range(0, 3):
         numb = int(input("Enter one number: "))
         user_nums.append(numb)
         pass
@@ -18,5 +19,6 @@ def add_arrays():
         print(j)
         pass
     pass
+
 
 add_arrays()
