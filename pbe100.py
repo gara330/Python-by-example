@@ -3,9 +3,8 @@ def sales():
              "Tom": {"N": 4832, "S": 6786, "E": 4737, "W": 3612},
              "Anne": {"N": 5239, "S": 4802, "E": 5820, "W": 1859},
              "Fiona": {"N": 3904, "S": 3645, "E": 8821, "W": 2451}}
-    print(sales)
-    for i in sales:
-        print(sales[i])
+    for name in sales:
+        print((name), sales[name])
         pass
     pass
 
